@@ -3,6 +3,19 @@ body{
     box-sizing: border-box;
     background-color: #333;
 }
+.navbar{
+    background-color: #000;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar .nav-img-1{
+    height: 8vh;
+    margin-left: 10rem;
+    width: 20vw;
+}
+
 h1{
     color:white;
     margin-left: 10rem;
@@ -20,7 +33,7 @@ h1{
     background-color: black;
     border: 1px solid #333;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .row-desc{
     width: 10%;
@@ -62,4 +75,37 @@ img{
 }
 .draggable .dragging{
     opacity: 0.5;
+}
+#btn{
+    margin-left: 40rem;
+    margin-top: 2rem;
+    width: 15vw;
+    padding: 0.4rem;
+    background-color: #333;
+    border: 1px solid whitesmoke;
+    color: white;
+    border-radius: 8px;
+    /* font-size: 15px; */
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #242222;
+}
+.container{
+    height: 80px;
+    /* height: auto; */
+    width: 50vw;
+    background-color: black;
+     display: flex;
+    flex-wrap: wrap;
+}
+#myFile{
+    margin-left: 10rem;
+    /* display: block; */
+    margin-top: 4vh;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+#addImgBtn{
+    color: #bfbfbf;
 }

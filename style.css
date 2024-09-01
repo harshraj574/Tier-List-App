@@ -28,7 +28,8 @@ h1{
     margin-top: 5rem;
 }
 .row{
-    height: 80px;
+    /* height: 80px; */
+    height:min-content;
     width: 70vw;
     background-color: black;
     border: 1px solid #333;
@@ -92,7 +93,7 @@ img{
     background-color: #242222;
 }
 .container{
-    height: 80px;
+    /* height: 80px; */
     /* height: auto; */
     width: 50vw;
     background-color: black;
